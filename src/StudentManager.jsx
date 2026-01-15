@@ -16,7 +16,7 @@ export default function StudentManagement() {
     year: ''
   });
 
-const API_URL = `${import.meta.env.VITE_API_URL}/students`;
+  const API_URL = 'https://student-api-wp7l.onrender.com/api/students';
 
   // Load dữ liệu từ API
   useEffect(() => {
